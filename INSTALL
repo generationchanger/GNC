@@ -1,0 +1,9 @@
+Building Generationchanger
+
+See doc/readme-qt.rst for instructions on building Generationchanger-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Generationchanger.
+
+See doc/build-*.txt for instructions on building generationchangerd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Generationchanger.

@@ -1,0 +1,34 @@
+src/*.exe
+src/generationchanger
+src/generationchangerd
+src/test_generationchanger
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.generationchanger
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+generationchanger-qt
+Generationchanger-Qt.app
+
+# Unit-tests
+Makefile.test
+generationchanger-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
