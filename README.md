@@ -6,7 +6,7 @@ Generation Changer Coin
 Generationchanger is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 
 For more information, as well as an immediately useable, binary version of 
-the Generationchanger client sofware, see http://www.generationchangercoin.com 
+the Generationchanger client software, see http://www.generationchangercoin.com 
 <h3>Development process</h3> Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
@@ -33,18 +33,4 @@ requests than we can review and test. Please be patient and help out, and
 remember this is a security-critical project where any mistake might cost people
 lots of money.
 
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code.
-
-Unit tests for the core code are in `src/test/`. To compile and run them:
-
-    cd src; make -f makefile.unix test
-
-Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
-
-    qmake GENERATIONCHANGER_QT_TEST=1 -o Makefile.test generationchanger-qt.pro
-    make -f Makefile.test
-    ./generationchanger-qt_test
-
+###
